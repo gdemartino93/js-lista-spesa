@@ -14,7 +14,7 @@ container.innerHTML+=`
 <div class="nomefeature">
 <input type="checkbox" name="" id="">
 <span class="taskname"> ${nuovo}</span>
-<span class="label greenyellow">Added</span>
+<span class="label greenyellow">Aggiunto da te</span>
 
     </div> 
 `
