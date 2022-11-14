@@ -3,7 +3,114 @@
     padding: 0;
     box-sizing: border-box;
 }
-#container{
-    display: flex;
-    flex-direction: column;
+header{
+    width: 100%;
+    padding: 10px;
 }
+.logo-img{
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.logo-text{
+    font-size: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+main{
+    background-color: rgba(227, 229, 232, 0.5);
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.contenitore{
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    border-radius: 40px 40px 40px 40px;
+
+
+} 
+.header-contenitore{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 40px 40px 0 0 ;
+
+
+
+}
+.buttonaddtask {
+    background-color: #008CBA;;
+    border: 1px solid lightgrey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  .buttonaddsection {
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.seznew{
+    background-color: white;
+    padding: 15px 32px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.tasksection{
+    font-size: 25px;
+    font-weight: bold;
+}
+.taskname{
+    padding: 15px 32px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.label {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 10px;
+    height: 20px;
+    padding:3px 10px;
+    vertical-align: middle;
+  }
+  .blue{
+    background-color: deepskyblue;
+  }
+  .violet{
+    background-color:blueviolet;
+  }
+  .green{
+    background-color: green;
+  }
+  .orange{
+    background-color: orange;
+  }
+  .pink{
+    background-color: violet;
+  }
+  .greenyellow{
+    background-color: greenyellow;
+  }
+  .nomefeature>input{
+    margin-left: 13%;
+  }
+
+  
