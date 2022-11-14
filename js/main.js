@@ -1,4 +1,4 @@
-const listaspesa=["pane", "salsa", "frutta","asd" ]
+const listaspesa=["Pane", "Frutta", "Verdura","Acqua" ]
 let container=document.querySelector(".nomefeature");
 
 // for (let i = 0; i< listaspesa.length; i++){
